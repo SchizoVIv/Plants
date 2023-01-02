@@ -1,1 +1,168 @@
-hello
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./img/logo_vector.png">
+  <title>CSS. Часть №1 (Синтаксис + Обнуление)</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" >
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="conteiner">
+      <div class="header-modul">
+        <div class="logo">
+          <img class="logo__part" src="./img/logo_vector.png" alt="logo">
+          <p class="logo__text logo__text_position_header">Plants</p>
+        </div>
+        <nav class="menu">
+          <ul class="menu-row">
+            <li><a class="menu__link" href="#welcome">Home</a></li>
+            <li><a class="menu__link" href="#about">About us</a></li>
+            <li><a class="menu__link" href="#service">Service</a></li>
+            <li><a class="menu__link" href="#prices">Price</a></li>
+            <li><a class="menu__link" href="#contacts">Contacts</a></li>
+          </ul>
+          
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section id="welcome" class="welcome">
+      <div class="conteiner conteiner_position_welcome">
+        <div class="conteiner-welcome">
+          <h1 class="welcome__title">We grow <span class="welcome__title-akcent">plants</span> and give you oxygen</h1>
+          <p class="welcome__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s.</p>
+          <button class="welcome__button">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="conteiner conteiner_position_about">
+        <div class="conteiner-about">
+          <h2 class="about__title">We are <span class="about__title-akcent">professional experienced</span> gardeners</h2>
+          <p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. </p>
+        </div>
+      </div>
+    </section>
+    <section id="service" class="service">
+      <div class="conteiner">
+        <div class="service-text">
+          <h2 class="service__title">Service and our projects</h2>
+          <div class="service-button">
+            <button class="service__button service__button-garden">Gardens</button>
+            <button class="service__button service__button-lawn">Lawn</button>
+            <button class="service__button service__button-plant">Planting</button>
+          </div>
+        </div>
+        <div class="sirvice-items">
+          <div class="sirvice-item">
+            <img class="service__item-img" src="./img/img_1.png" alt="plants">
+            <div class="sirvice-item-bottom">
+              <h3 class="service__item-title">Garden care</h3>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="sirvice-item">
+            <img class="service__item-img service__item-img-2" src="./img/img_2.png" alt="plants">
+            <div class="sirvice-item-bottom">
+              <h3 class="service__item-title">Planting</h3>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="sirvice-item">
+            <img class="service__item-img service__item-img-3" src="./img/img_3.png" alt="plants">
+            <div class="sirvice-item-bottom">
+              <h3 class="service__item-title">Lawn care</h3>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="sirvice-item">
+            <img class="service__item-img service__item-img-4" src="./img/img_4.png" alt="plants">
+            <div class="sirvice-item-bottom">
+              <h3 class="service__item-title">Planting</h3>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="sirvice-item">
+            <img class="service__item-img service__item-img-5" src="./img/img_5.png" alt="plants">
+            <div class="sirvice-item-bottom">
+              <h3 class="service__item-title">Garden care</h3>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+          <div class="sirvice-item">
+            <img class="service__item-img service__item-img-6" src="./img/img_6.png" alt="plants">
+            <div class="sirvice-item-bottom">
+              <h3 class="service__item-title">Planting</h3>
+              <p class="service__item-text">Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="prices" class="prices">
+      <div class="conteiner">
+        <div class="conteiner-prices">
+          <div class="prices-tarif">
+            <h2 class="prices__subtitle">Prices</h2>
+            <div class="prices-tarif__tarif-level">
+              <div class="prices-level prices-level_nomber-1">
+                <a class="prices__button-tarif" href="#">Basics</a>
+                <img class="prices__arrow" src="./img/arrow.svg" alt="arrow">
+              </div>
+              <div class="prices-level prices-level_nomber-2">
+                <a class="prices__button-tarif" href="#">Standard</a>
+                <img class="prices__arrow" src="./img/arrow.svg" alt="arrow">
+              </div>
+              <div class="prices-level prices-level_nomber-3">
+                <a class="prices__button-tarif" href="#">Pro care</a>
+                <img class="prices__arrow" src="./img/arrow.svg" alt="arrow">
+              </div>
+            </div>
+          </div>
+          <div class="prices-text">
+            <h2 class="prices__title">Our best <span class="prices__akcent-title prices__akcent-title_color_green">gardeners</span> are ready to help you</h2>
+            <button class="prices__button">Contact us</button>
+            <img class="prices__sheet" src="./img/sheet_mini.svg" alt="sheets">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="conteiner conteiner_position_contacts">
+        <h2 class="contacts__title">Contact us</h2>
+        <div class="contacts-choice-city">
+          <p class="contacts__button-city">City</p>
+          <img class="contacts__arrow" src="./img/accordion_btn.svg" alt="arrow">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="conteiner conteiner_position_footer">
+      <div class="footer__info-git">
+        <p class="footer__git">©</p>
+        <p class="footer__git">2022</p>
+        <a class="footer__git-link" href="https://github.com/SchizoVIv?tab=repositories">github</a>
+      </div>
+      <a class="footer__rss" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+      <ul class="footer__socials">
+        <li class="footer__social"><a href="https://www.instagram.com/schizovi/"><img class="footer__social-logo" src="./img/inst_1.svg" alt="instagram"></a></li>
+        <li class="footer__social"><a href="https://www.facebook.com/RunovSchool/"><img class="footer__social-logo" src="./img/fb_1.svg" alt="facebook"></a></li>
+        <li class="footer__social"><a href="https://twitter.com/hashtag/school"><img class="footer__social-logo" src="./img/tw_1.svg" alt="tw"></a></li>
+        <li class="footer__social"><a href="https://ru.pinterest.com/"><img class="footer__social-logo" src="./img/pinterest_1.svg" alt="pinterest"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
