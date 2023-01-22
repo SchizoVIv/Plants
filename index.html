@@ -8,7 +8,9 @@
   <link rel="icon" href="./img/logo_vector.png">
   <title>CSS. Часть №1 (Синтаксис + Обнуление)</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" >
+  <!-- <meta http-equiv="Content-type" content="text/html;charset=UTF-8" > -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="page">
@@ -27,8 +29,13 @@
             <li><a class="menu__link" href="#prices">Price</a></li>
             <li><a class="menu__link" href="#contacts">Contacts</a></li>
           </ul>
-          
         </nav>
+        <div class="burger" id="burger">
+          <span class="burger__line burger__line_nomber_1"></span>
+          <span class="burger__line burger__line_nomber_2"></span>
+          <span class="burger__line burger__line_nomber_3"></span>
+          <span class="burger__line burger__line_nomber_4"></span>
+        </div>
       </div>
     </div>
   </header>
@@ -100,7 +107,7 @@
               <p class="service__item-text">Lorem Ipsum has been the industry</p>
             </div>
           </div>
-          <div class="sirvice-item">
+          <div class="sirvice-item sirvice-item_last">
             <img class="service__item-img service__item-img-6" src="./img/img_6.png" alt="plants">
             <div class="sirvice-item-bottom">
               <h3 class="service__item-title">Planting</h3>
@@ -164,5 +171,6 @@
       </ul>
     </div>
   </footer>
+  <script src="./js/index.js"></script>
 </body>
 </html>
